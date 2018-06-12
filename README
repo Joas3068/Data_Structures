@@ -1,4 +1,4 @@
-﻿This is a demonstration of data structure implementations. I was tasked with sorted patients based on their priority, then treatment. 
+﻿This is a demonstration of data structure implementations. I was tasked with sorting patients based on their priority, then treatment. 
 
 FinalProject.cpp is my main driver function using an interactive terminal. To change the data size you must change the define variable DATA_SIZE.
 projTime.cpp is my testing function.
