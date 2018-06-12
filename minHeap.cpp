@@ -191,8 +191,8 @@ void MinHeap::sortStruct()
     for(int i =0; i<size;i++)
     {
         sorted[i] = extractMin();
-        //cout<<i+1<<". "<<sorted[i].name<<", "<<sorted[i].priority<<",  "<<sorted[i].treatment<<endl;
-        //cout<<i+1<<". "<<harr[i].name<<", "<<harr[i].priority<<",  "<<harr[i].treatment<<endl;
+        cout<<i+1<<". "<<sorted[i].name<<", "<<sorted[i].priority<<",  "<<sorted[i].treatment<<endl;
+        cout<<i+1<<". "<<harr[i].name<<", "<<harr[i].priority<<",  "<<harr[i].treatment<<endl;
 
     }
 

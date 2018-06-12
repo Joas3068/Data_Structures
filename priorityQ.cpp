@@ -59,13 +59,13 @@ void PriorityQ::printPop()
 	 else
 	 {
 	 	int rank = 0;
-	 	//cout<<"Rank     "<<"patient,  "<<"Priority,  "<<"Treatment"<<endl;
+	 	cout<<"Rank     "<<"patient,  "<<"Priority,  "<<"Treatment"<<endl;
 		 while(!q.empty()) 
 	 
 	    {
 	    	rank++;
 	    	Data a = q.top();
-	    	//cout<<rank<<":     "<<a.name<<":    "<<a.priority<<", "<<a.treatment<<endl;
+	    	cout<<rank<<":     "<<a.name<<":    "<<a.priority<<", "<<a.treatment<<endl;
 	        q.pop();
 	    }
 	  }  
