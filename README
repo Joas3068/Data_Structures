@@ -1,0 +1,8 @@
+FinalProject.cpp is my main driver function.It is currently set up for command line arguments. To change the data size you must change the define variable 
+DATA_SIZE.
+projTime.cpp is my testing function.
+
+
+g++ -std=c++11 priorityQueueLL.cpp minHeap.cpp priorityQ.cpp FinalProject.cpp -o a
+
+g++ -std=c++11 priorityQueueLL.cpp buildList.cpp minHeap.cpp priorityQ.cpp projTime.cpp -o a
