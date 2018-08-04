@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream> 
 #include<climits>
-//#include "main.h"
+
 using namespace std;
 
 //This code was provided by https://www.geeksforgeeks.org/binary-heap/
@@ -50,7 +50,7 @@ void MinHeap::insertKey(Data k)
     int j = heap_size-1;
     harr[i] = k;
     
-    // Fix the min heap property if it is violated
+
     while (i != 0 && combine(harr[parent(i)].priority,harr[parent(i)].treatment) > combine(harr[i].priority,harr[i].treatment))
     {
   
@@ -58,11 +58,7 @@ void MinHeap::insertKey(Data k)
        i = parent(i);
        
     }
-    // if(heap_size == DATA_SIZE)
-    // {
-    //     for(int i =0; i<DATA_SIZE;i++)
-    //     cout<<i+1<<". "<<harr[i].name<<", "<<harr[i].priority<<",  "<<harr[i].treatment<<endl;
-    // }
+
 
 }
  
