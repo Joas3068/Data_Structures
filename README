@@ -1,15 +1,13 @@
 ﻿This is a demonstration of data structure implementations. I was tasked with sorting patients based on their priority, then treatment. 
 
 FinalProject.cpp is my main driver function using an interactive terminal. To change the data size you must change the define variable DATA_SIZE.
-projTime.cpp is my testing function.
 
 A linked list, priority queue from the STL, and a min-heap are used to store data.
 
-g++ -std=c++11 priorityQueueLL.cpp minHeap.cpp priorityQ.cpp FinalProject.cpp -o a
+To run the program execute build.sh.
 
-g++ -std=c++11 priorityQueueLL.cpp buildList.cpp minHeap.cpp priorityQ.cpp projTime.cpp -o a
 
-./a for unix
-a for windows
+
+
 
 
